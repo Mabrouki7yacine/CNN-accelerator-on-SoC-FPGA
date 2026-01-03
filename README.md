@@ -4,4 +4,4 @@ this repo is tructured as follow :
 - test_bench (contains test bench written to test full system)
 - I forget where is the training file I'll update this repo when I find it
 
-#for more details read my report
+for more details read my report
