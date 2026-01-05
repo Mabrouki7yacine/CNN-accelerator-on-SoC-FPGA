@@ -4,7 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity adder is
     generic (
-        WIDTH : integer --:= 8 Default width is 8 bits
+        WIDTH : integer
     );
     Port ( a   : in STD_LOGIC_VECTOR (WIDTH-1 downto 0);
            b   : in STD_LOGIC_VECTOR (WIDTH-1 downto 0);
