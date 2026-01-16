@@ -30,7 +30,7 @@ begin
             if xored >= x"0000007F" then 
                 data_out(0) <= '1';
                 data_out(7) <= temp(0);
-                data_out(6 downto 1) <= notv & notv & notv & notv & notv & notv ;
+                data_out(6 downto 1) <= (others => notv);
             else
                 data_out <= data_in(7 downto 0); 
             end if; 
