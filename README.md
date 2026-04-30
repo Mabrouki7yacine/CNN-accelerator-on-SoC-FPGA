@@ -20,8 +20,6 @@ This project was built to explore hardware acceleration for Convolutional Neural
 ## Testing & Verification
 
 The included test benches provide:
-
-- RTL/module-level verification
 - End-to-end system simulation including PS + accelerator interaction
 - Validation of data transfers and inference execution
 
